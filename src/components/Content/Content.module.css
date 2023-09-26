@@ -1,0 +1,19 @@
+.games {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 10rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.allGames {
+  align-self: flex-end;;
+}

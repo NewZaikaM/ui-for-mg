@@ -1,0 +1,18 @@
+.poster {
+	position: relative;
+	height: 10rem;
+	width: 100%;
+	background-image: url('./../../assets/poster.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+	margin-bottom: 12.5rem;
+}
+.poster .btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: inherit;
+	font-weight: 600;
+}

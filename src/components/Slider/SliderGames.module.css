@@ -1,0 +1,76 @@
+.slider {
+	display: flex;
+	gap: 1rem;
+	padding: 1rem 0;
+	width: 100%;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+}
+.slider > * {
+	scroll-snap-align: center;
+}
+.slider::-webkit-scrollbar {
+	display: none;
+}
+
+.content {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: .3rem;
+  padding: 0 1.5rem 2.5rem;
+}
+
+.schedule {
+  font-family: inherit;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 1.4rem;
+}
+.schedule img {
+  width: 3rem;
+  height: 3rem;
+  border: .1rem solid black;
+  border-radius: 50%;
+  object-fit: fill;
+}
+
+.company {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: .6rem;
+}
+
+.price {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 2.1rem;
+}
+
+.tags {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-bottom: 2.1rem;
+}
+.tags button {
+  border: 0;
+  background: rgba(51, 51, 51, 0.29);
+  padding: 0 1.4rem;
+  border-radius: .5rem;
+}
+
+.seats {
+  color: #A92222;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
